@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo de API</title>
+        <script src="api.js"></script>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" placeholder="Digite o CEP" />
+            </div>
+            <div>
+                <label for="logradouro">Logradouro:</label>
+                <input readonly type="text" id="logradouro" />
+            </div>
+            <div>
+                <label for="bairro">Bairro:</label>
+                <input readonly type="text" id="bairro" />
+            </div>
+            <div>
+                <label for="localidade">Cidade:</label>
+                <input readonly type="text" id="localidade" />
+            </div>
+            <div>
+                <label for="uf">UF:</label>
+                <input readonly type="text" id="uf" />
+            </div>
+            <div>
+                <label for="ddd">DDD:</label>
+                <input readonly type="text" id="ddd" />
+            </div>
+            <div>
+                <button type="button" onclick="buscaCep()">Buscar</button>
+            </div>
+        </form>
+    </body>
+</html>
